@@ -23,3 +23,112 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-menu a {
+  width: 100px;
+  text-align: center;
+  background-color: #4e75ff;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  font-family: var(--font-family);
+}
+
+.main-menu a:hover {
+  background: #6c8cff;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin: 0 auto;
+  max-width: 1128px;
+}
+
+.gallery-item {
+  align-items: center;
+}
+
+.gallery-image {
+  display: block;
+  width: 360px;
+  height: 200px;
+}
+
+.feedback-form {
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 296px;
+  background: #fff;
+}
+
+.feedback-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.feedback-form input[type='email'] {
+  width: 360px;
+  height: 40px;
+  padding-left: 5px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.feedback-form input[type='email']:hover {
+  border: 1px solid #000;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.feedback-form textarea {
+  width: 360px;
+  height: 80px;
+  padding-left: 5px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+}
+
+.feedback-form button {
+  width: 95px;
+  height: 40px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #4e75ff;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.feedback-form button:hover {
+  background: #6c8cff;
+}
+
+.form-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
